@@ -1,0 +1,80 @@
+/* Estilo geral */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: red; /* Fundo vermelho */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh; /* Altura mínima da janela */
+    color: white; /* Texto branco */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+/* Estilo do header e footer */
+header, footer {
+    background-color: green; /* Fundo verde */
+    width: 100%; /* Ocupa toda a largura */
+    padding: 20px;
+    color: white; /* Texto branco */
+    text-align: center; /* Centraliza o conteúdo */
+}
+
+/* Centralizando o conteúdo */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Estilo do texto na mensagem */
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Espaço entre os itens */
+}
+
+.content p {
+    font-size: 1.2rem;
+    line-height: 1.6; /* Espaçamento entre as linhas */
+    max-width: 600px; /* Limita a largura do texto */
+    text-align: justify; /* Alinha o texto justificado */
+}
+
+/* Estilo da imagem */
+img {
+    max-width: 150px; /* Largura máxima da imagem */
+    max-height: 150px; /* Altura máxima da imagem */
+    border: 5px solid white; /* Borda branca */
+}
+
+/* Estilo do botão */
+button {
+    background-color: green; /* Cor de fundo verde */
+    color: white; /* Texto branco */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px; /* Bordas arredondadas */
+    font-size: 1rem; /* Tamanho do texto */
+    cursor: pointer; /* Cursor de mão ao passar */
+    text-transform: uppercase; /* Texto em letras maiúsculas */
+}
+
+/* Efeito no botão ao passar o mouse */
+button:hover {
+    background-color: darkgreen; /* Cor mais escura ao passar o mouse */
+}
+/* Estilo para a imagem maior no index.html */
+main img {
+    max-width: 500px; /* Largura maior */
+    max-height: 500px; /* Altura maior */
+    margin-bottom: 20px; /* Espaço abaixo da imagem */
+    border: 5px solid white; /* Borda branca opcional */
+}
